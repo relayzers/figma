@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#B90470;
+}
+
+body {
+    background-image: url(../image/amazing_asiatic_landscape_art-wallpaper-1920x1200.jpg);
+    object-fit: cover;
+}
+
+img {
+    margin-left: 40px;
+}
+
+.container1 {
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 1000px;
+    width: 100%;
+    background: #DBE6F6;
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);
+    background: linear-gradient(to right, #C5796D, #DBE6F6);
+    display: flex;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.container4 a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 150px;
+    padding: 10.5px;
+    background-color:#B90470;
+    border-radius: 5px;
+    text-align: center;
+    padding-inline: 30px;
+    transition:1ms;
+    transform: skew(1.1);
+
+}
+
+
+
+a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+
+.container5,
+h1,
+h2,
+p {
+    color: white;
+    max-width: 1000px;
+    height: 100px;
+    display: flex;
+    margin-left: 110px;
+    flex-direction: column;
+    /* justify-content: start; */
+    /* align-items: center; */
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.container6 {
+    background-color: #B90470;
+    border-radius: 20px;
+    margin: 220px;
+    width: 224px;
+    height: 47px;
+
+}
+
+.container6 a {
+    width: 220px;
+    height: 47px;
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5cap;
+    margin-left: 50px;
+}
