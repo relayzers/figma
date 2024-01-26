@@ -84,11 +84,11 @@ nav .navigation .ikinciA:hover {
   transition: 0s;
 }
 .contactus :hover {
-  color: #FFF;
+  color: orangered;
 }
 .contactus a {
   transform: scale(4);
-  color: orangered;
+  color: rgba(255, 255, 255, 0.7);
   padding: 5px;
   margin-top: 215px;
   margin-left: 200px;
@@ -99,14 +99,16 @@ nav .navigation .ikinciA:hover {
   transform: scale(1);
 }
 .contactus div :hover {
-  background-color: #FFF;
+  background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);
   color: black;
 }
 .contactus div a {
+  border-color: white;
+  border: 3px solid orangered;
   color: #fff;
-  transition: 0.3s;
+  transition: 0.5s;
   padding: 30px;
   margin: 70px;
-  background-color: orangered;
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
