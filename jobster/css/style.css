@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: none;
+}
+
+a {
+  color: white;
+  outline: none;
+}
+
+.h1 {
+  width: 900px;
+  height: 100px;
+  margin: 30px auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  background: #ED213A;
+  background: linear-gradient(to right, #93291E, #ED213A);
+}
+.h1 h1 {
+  margin-top: 30px;
+  margin-left: 170px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #00B4DB;
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  width: 1200px;
+  height: 60px;
+  margin: 30px auto;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+nav h2 {
+  margin-top: -5px;
+  color: white;
+}
+nav div {
+  margin-top: 20px;
+}
+nav .login a {
+  margin-left: 50px;
+}
+nav a {
+  padding: 20px;
+}
+
+main {
+  width: 1200px;
+  height: 400px;
+  margin: 30px auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  background: #00B4DB;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main h1,
+main form {
+  margin: 70px 300px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+main form {
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+}
+main form a {
+  color: aqua;
+}
+main input {
+  background-color: white;
+  border: 1px solid white;
+  padding-right: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 100;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  outline: none;
+  background: #00B4DB;
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+}
+.container h3 {
+  color: white;
+  padding: 10px;
+}
+.container form {
+  padding: 30px;
+}
+.container form input {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto;
+}
+.container a {
+  transition: 0.5s;
+  padding: 30px;
+  margin-top: 10px;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid aqua;
+  margin: 10px;
+  background-color: white;
+}
+.container a:hover {
+  border-color: aqua;
+  background-color: aqua;
+  padding: 60px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  width: 1200px;
+  height: 100%;
+  margin: 30px auto;
+  border: 1px solid white;
+  border-radius: 15px;
+  background: #00B4DB;
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+}
+.cards .card {
+  transition: 1s;
+  border-radius: 10px;
+  padding: 5px;
+}
+.cards .card .card:hover {
+  background: white;
+}
+
+.vakansiya {
+  transform: scale(1.5);
+  width: 600px;
+  height: 100%;
+  margin: 50px auto;
+}
+.vakansiya h3 {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
